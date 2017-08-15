@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Check if a string is empty",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "rme": "readme package.json > README.md",
     "test": "mocha --harmony --inline-diffs"
@@ -22,8 +25,10 @@
   },
   "homepage": "https://github.com/jameswomack/string-is-empty#readme",
   "devDependencies": {
-    "esprima-fb": "15001.1.0-dev-harmony-fb",
-    "mocha": "2.2.5",
-    "package-json-to-readme": "1.4.1"
+    "mocha": "^3.5.0",
+    "package-json-to-readme": "^2.0.0"
+  },
+  "dependencies": {
+    "is-string": "^1.0.4"
   }
 }

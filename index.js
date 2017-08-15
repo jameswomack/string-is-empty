@@ -1,11 +1,9 @@
-function stringIsEmpty(aString) {
-  if (String.prototype.isPrototypeOf(aString)) {
-    return stringIsEmpty(aString.toString())
-  }
+const isString = require('is-string')
 
-  if (typeof aString !== 'string') {
+function stringIsEmpty (aString) {
+  if (!isString(aString)) {
     return false
-  } else if (!aString.trim()) {
+  } else if (aString.trim() === '') {
     return true
   } else {
     return false
