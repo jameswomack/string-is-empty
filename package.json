@@ -1,6 +1,6 @@
 {
   "name": "string-is-empty",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Check if a string is empty",
   "main": "index.js",
   "files": [
