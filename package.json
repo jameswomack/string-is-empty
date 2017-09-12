@@ -1,12 +1,13 @@
 {
   "name": "string-is-empty",
-  "version": "2.0.0",
+  "version": "2.0.0-test.0",
   "description": "Check if a string is empty",
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "scripts": {
+    "postinstall": "echo 'POSTINSTALL WAS RUN IN STRING_IS_EMPTY'",
     "rme": "readme package.json > README.md",
     "test": "mocha --harmony --inline-diffs"
   },
