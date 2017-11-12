@@ -2,6 +2,8 @@
 
 Check if a string is empty
 
+[![Office Hours](https://nko2017-discovery.herokuapp.com/badge/jameswomack)](https://nko2017-discovery.herokuapp.com/chat/join/jameswomack/guest)
+
 ## Installation
 
 ```sh
